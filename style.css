@@ -1,0 +1,89 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: Okra, Helvetica, sans-serif;
+}
+
+nav{
+    
+}
+.bg-image{
+    filter: brightness(0.6);
+    object-fit: cover;
+    height: 500px;
+    width: 100vw;
+    position: absolute;
+
+}
+h5 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.logo-zomato{
+    position: relative;
+    
+}
+
+.search-container{
+    display: flex;
+}
+.search-item input{
+    border: none;
+    font-size: 16px;
+}
+
+.detection input{
+    border: none;
+    font-size: 16px;
+}
+.card:hover{
+transition: 0.4s;
+transform: scale(1.04);
+cursor: pointer;
+}
+.localities-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+align-items: center;
+}
+.section-4{
+    margin: auto;
+    width: 800px;
+    align-items: center;
+    height: 500px;
+    
+}
+.zomato-app-image{
+    width: 400px;
+}
+.input-container-zomato-app input{
+    width: 280px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+     
+}
+.download-app img{
+    width: 100%;
+    max-width: 120px;
+}
+.foot h6{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.foot p{
+    opacity: 0.8;
+    font-weight: 500;
+}
+.down{
+    margin-left: 10px;
+    margin-right: 20px;
+}
